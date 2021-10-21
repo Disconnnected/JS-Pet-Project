@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideshow">
+        <div class="slider active">
+            <img src="https://via.placeholder.com/640x320.png?text=Slide1" alt="image slideshow">
+        </div>
+        <div class="slider">
+            <img src="https://via.placeholder.com/640x320.png?text=Slide2" alt="image slideshow">
+        </div>
+        <div class="slider">
+            <img src="https://via.placeholder.com/640x320.png?text=Slide3" alt="image slideshow">
+        </div>
+        <div class="slider">
+            <img src="https://via.placeholder.com/640x320.png?text=Slide4" alt="image slideshow">
+        </div>
+        <div class="slider">
+            <img src="https://via.placeholder.com/640x320.png?text=Slide5" alt="image slideshow">
+        </div>
+    </div>
+    <div class="btn">
+        <input type="button" value="Previous" class="previousBtn" onclick="control(-1)">
+        <input type="button" value="Next" class="nextBtn" onclick="control(1)">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

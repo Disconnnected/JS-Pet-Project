@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.center {
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+#pw {
+    height: 36px;
+    width: 300px;
+    border: solid 1px #aaa;
+    border-right: none;
+    border-radius: 5px;
+
+}
+
+#hideBtn {
+    height: 36px;
+    padding: 0 12px;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    margin-left: -10px;
+
+}
+
+#hideBtn:hover {
+cursor: pointer;
+background-color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
